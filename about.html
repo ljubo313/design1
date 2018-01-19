@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="graphic design, modern graphic design, web design, affordable web design, professional web design">
+    <meta name="author" content="Ljubomir Stojanović">
+    <title>Acme Web Design | About</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Modern</span> Graphic Design</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li class="current"><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email">
+          <button type="submit" class="button_1">Subscribe</button>
+
+        </form>
+      </div>
+    </section>
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="highlight">About Us</h1>
+          <p>&#160;</p>
+          <span class="about">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sollicitudin tincidunt nunc quis gravida. Phasellus ac posuere arcu. Etiam faucibus eros a eleifend tempor. Praesent viverra dui rutrum euismod dignissim. Vestibulum sed ex elementum, bibendum urna et, ullamcorper turpis. Morbi egestas est nec sem molestie pellentesque. Aenean ac ultrices nisi, nec ullamcorper lorem. Pellentesque vel nibh vehicula, tempor tellus lobortis, bibendum magna. Aliquam quam neque, varius sed aliquam a, ultricies at eros. Nulla lacinia nisi vitae odio semper, a convallis arcu porta. Morbi iaculis aliquam eros sit amet maximus.
+          </p>
+          <p>&#160;</p>
+          <p>
+          Morbi vitae mollis mauris. Vivamus ultrices id lacus eget efficitur. Donec eu neque id nibh finibus vestibulum tristique id odio.  Aenean sed massa a urna tristique rutrum. Ut ullamcorper, risus ut tristique sodales, tortor neque elementum risus, sed eleifend purus leo sed augue. Donec laoreet in sapien sed sodales. Maecenas dictum metus tristique nunc pellentesque, non maximus purus tristique. Pellentesque convallis velit magna, nec imperdiet risus lacinia sit amet. Curabitur quis sodales massa. Aenean facilisis turpis sit amet leo posuere, sed pulvinar sem tincidunt. Nam aliquam eu ex non finibus. In faucibus nunc sit amet auctor sodales.
+          </p>
+          <p>&#160;</p>
+          <p>
+            Nulla felis mi, tristique sed commodo quis, laoreet tincidunt mauris. Aenean interdum viverra ligula, nec volutpat ipsum. Nam ut lorem ut mauris maximus aliquam in at nisl.
+          </p>
+        </span>
+        </article>
+        <aside id="sidebar">
+          <div class="dark">
+          <h3><span class="highlight">What We Do</span></h3>
+          <p>&#160;</p>
+          <span class="about">
+          <p>Aenean sed massa a urna tristique rutrum. Ut ullamcorper, risus ut tristique sodales, tortor neque elementum risus, sed eleifend purus leo sed augue. Donec laoreet in sapien sed sodales.</p>
+          <p>&#160;</p>
+          <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque tincidunt ut nisi id auctor. Vivamus ipsum magna, euismod efficitur tellus quis, aliquam tincidunt tortor. </p>
+          <p>&#160;</p>
+          <p>Suspendisse feugiat elit quis consectetur varius. Maecenas et ex vel elit egestas porta.</p>
+          </span>
+        </div>
+        </aside>
+      </div>
+    </section>
+    <footer>
+      <p>Modern Graphic Design, Copyright &copy; 2018</p>
+    </footer>
+    <script type="text/javascript">
+      $(".highlight").on("click", function() {
+        $("article#main-col .about").slideToggle();
+      });
+    </script>
+  </body>
+</html>
